@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding:0;
+    font: inherit;
+}
+body{
+    background-color: #eff1f3;
+}
+.container{
+       display:flex;
+       flex-direction:column;
+       width:1500px;
+       margin:auto;
+}
+button{
+    background-color: rgb(64, 173, 78)  ; 
+    margin-top: 50px;
+    padding:15px 20px;
+    border-radius: 5%; 
+    text-align: center;
+}
+.container .box a{
+    color:aliceblue;
+    font-size: 18px;
+}
+
+.container h1{
+    text-align: center;
+    font-size:30px;
+    margin-top: 15px;;
+}
+.container h2{
+    font-size:24px;
+}
+.container i{
+    font-size: 26px;
+    color:red;
+}
+.container p, li{
+    font-size: 18px;
+}
+.container .box2 a{
+    font-size:20px;
+    color:rgb(43, 41, 161);
+}
+.box2{
+    
+    background-color: #FFFFFF;
+    width:1500px;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top:10px;
+    padding:0px 10px;
+}
+.box2 ul{
+    list-style: none;
+}
+.layer00{
+    background-color: rgb(22, 69, 129);
+    width: 100%;
+    margin-top:8px;
+}
+.layer00-1{
+    /* background-color: rgb(255, 0, 43);  */
+    width:98%;
+    margin: auto;
+   
+}
+.layer00-2{
+    width:88%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+}
+.chusohuu{
+    /* background-color: blanchedalmond; */
+    width:22%;
+    /* flex-grow: 1; */
+    margin-top:5px;
+
+}
+.gioithieu{
+    /* background-color: blanchedalmond; */
+    width:22%;
+    /* flex-grow: 1; */
+    margin-top:5px;
+
+
+
+}
+.tuvantuyensinh{
+    /* background-color: blanchedalmond;    */
+     width:22%;
+     /* flex-grow: 1; */
+     margin-top:5px;
+}
+.diachi{
+    /* background-color: blanchedalmond; */
+    width:22%;
+    /* flex-grow: 1; */
+    margin-top:5px;
+
+
+}
+.layer00-2 h4{
+    color:aliceblue;
+    text-align:left;
+    font-size:28px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    height:50px;
+    width: 120px;
+    margin-top:10px;
+}
+.icon i{
+    font-size:30px;
+    color:rgb(255, 255, 255);
+}
+h4, .layer00-2 span, li{
+    margin: 15px 0px;
+}
+a:link {
+    text-decoration: none; 
+}
+.layer00 a:link, .layer00 ul, .layer00 a, .layer00-2 li span {
+    color:rgb(255, 255, 255);
+    font-size:18px;
+    list-style: none;
+}
